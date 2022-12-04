@@ -14,6 +14,11 @@
     src: url(./styles/utilities/Poppins/Poppins-SemiBold.ttf);
 }
 
+@font-face {
+    font-family: poppinsblack;
+    src: url(./styles/utilities/Poppins/Poppins-Bold.ttf);
+}
+
 .navbar {
     display: flex;
     height: 30px;
@@ -64,6 +69,7 @@
     color: #541554;
     font-family: poppinsbold;
     font-size: 10pt;
+    border-style: none;
 }
 
 .register__method--google {
@@ -73,6 +79,8 @@
     background-color: #4285F4;
     font-family: poppinsbold;
     margin-top: 10px;
+    border-style: none;
+
 }
 
 .register__img--img {
@@ -83,7 +91,7 @@
 
 .info {
     background-color: #F4EDE4;
-    height: 1000px;
+    height: 2850px;
     width: 100%;
 }
 
@@ -133,3 +141,98 @@
     margin-top: 20px;
 }
 
+
+.info__equipo {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+.info__equipo--p {
+    font-family: poppinsbold;
+    margin-top: 20px;
+}
+
+.info__equipo--a {
+    text-decoration: none;
+}
+
+.info__equipo--img {
+    margin-top: 80px;
+    margin-left: 45px;
+    margin-bottom: 40px;
+}
+
+.info__equipo--img2 {
+    margin-top: 80px;
+    margin-left: -20px;
+    margin-bottom: 40px;
+}
+
+.conoce {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 140px;
+    height: 1000px;
+}
+
+.conoce__h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.conoce__p {
+    text-align: center;
+}
+
+.conoce__button1 {
+    width: 100%;
+    height: 55px;
+    font-family: poppinsbold;
+    font-size: 10pt;
+    background-color: #541554;
+    color: white;
+    border-style: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.conoce__button2 {
+    width: 100%;
+    height: 55px;
+    font-family: poppinsbold;
+    font-size: 10pt;
+    background-color: white;
+    color: #541554;
+    margin-bottom: 60px;
+    border-color: #541554;
+}
+
+.conoce__porcentajes {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.conoce__porcentajes--por {
+    text-align: center;
+    font-size: 34pt;
+    color:#541554;
+    font-family: poppinsblack;
+    padding-top: 30px;
+}
+
+.conoce__porcentajes--text {
+    font-size: 10pt;
+    text-align: center;
+}
+
+.conoce__video {
+    margin-top: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+.conoce__video--vid {
+    object-fit: fill;
+    max-width: 100%;
+}
